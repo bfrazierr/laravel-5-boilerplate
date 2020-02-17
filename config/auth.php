@@ -1,9 +1,6 @@
 <?php
 
-use App\Models\Access\User\User;
-
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
@@ -46,6 +43,7 @@ return [
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
+            'hash' => false,
         ],
     ],
 
@@ -69,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => User::class,
+            'model' => App\Models\Auth\User::class,
         ],
 
         // 'users' => [
@@ -100,5 +98,4 @@ return [
             'expire' => 60,
         ],
     ],
-
 ];

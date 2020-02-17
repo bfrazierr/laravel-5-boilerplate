@@ -2,12 +2,12 @@
 
 namespace App\Http\Requests\Frontend\Contact;
 
-use App\Http\Requests\Request;
+use Illuminate\Foundation\Http\FormRequest;
 
 /**
  * Class SendContactRequest.
  */
-class SendContactRequest extends Request
+class SendContactRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,9 +27,20 @@ class SendContactRequest extends Request
     public function rules()
     {
         return [
-            'name' => 'required',
-            'email' => 'required',
-            'message' => 'required',
+            'name' => ['required'],
+            'email' => ['required', 'email'],
+            'message' => ['required'],
+            'g-recaptcha-response' => ['required_if:captcha_status,true', 'captcha'],
+        ];
+    }
+
+    /**
+     * @return array
+     */
+    public function messages()
+    {
+        return [
+            'g-recaptcha-response.required_if' => __('validation.required', ['attribute' => 'captcha']),
         ];
     }
 }

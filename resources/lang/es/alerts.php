@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Alert Language Lines
@@ -15,30 +14,30 @@ return [
 
     'backend' => [
         'roles' => [
-            'created' => 'Rol creado satisfactoriamente.',
-            'deleted' => 'Rol eliminado satisfactoriamente.',
-            'updated' => 'Rol actualizado satisfactoriamente.',
+            'created' => 'Rol creado correctamente.',
+            'deleted' => 'Rol eliminado correctamente.',
+            'updated' => 'Rol actualizado correctamente.',
         ],
 
         'users' => [
-            'cant_resend_confirmation' => 'The application is currently set to manually approve users.',
-            'confirmation_email'  => 'Un nuevo mensaje de confirmación ha sido enviado a tu correo.',
-            'confirmed'              => 'The user was successfully confirmed.',
-            'created'             => 'Usuario creado satisfactoriamente.',
-            'deleted'             => 'Usuario eliminado satisfactoriamente.',
-            'deleted_permanently' => 'Usuario eliminado de forma permanente.',
-            'restored'            => 'Usuario restaurado satisfactoriamente.',
-            'session_cleared'      => "The user's session was successfully cleared.",
-            'social_deleted' => 'Social Account Successfully Removed',
-            'unconfirmed' => 'The user was successfully un-confirmed',
-            'updated'             => 'Usuario actualizado satisfactoriamente.',
-            'updated_password'    => 'Contraseña actualizada satisfactoriamente.',
+            'cant_resend_confirmation' => 'La aplicación está actualmente configurada para aprobación manual de usuarios.',
+            'confirmation_email' => 'Un nuevo mensaje de confirmación ha sido enviado a su correo.',
+            'confirmed' => 'El usuario fue confirmado correctamente.',
+            'created' => 'El usuario fue creado correctamente.',
+            'deleted' => 'El usuario fue eliminado correctamente.',
+            'deleted_permanently' => 'El usuario fue eliminado de forma permanente.',
+            'restored' => 'El usuario fue restaurado correctamente.',
+            'session_cleared' => 'La sesión del usuario se borró correctamente.',
+            'social_deleted' => 'La cuenta social fue eliminada correctamente.',
+            'unconfirmed' => 'El usuario fue desconfirmado correctamente',
+            'updated' => 'El usuario fue actualizado correctamente.',
+            'updated_password' => 'La contraseña fue actualizada correctamente.',
         ],
     ],
 
     'frontend' => [
         'contact' => [
-            'sent' => 'Your information was successfully sent. We will respond back to the e-mail provided as soon as we can.',
+            'sent' => 'Su información fue enviada correctamente. Responderemos tan pronto sea posible al e-mail que proporcionó.',
         ],
     ],
 ];

@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Alert Language Lines
@@ -22,24 +21,24 @@ return [
         ],
 
         'users' => [
-            'cant_resend_confirmation' => 'The application is currently set to manually approve users.',
-            'confirmation_email'  => 'Uma nova confirmação de e-mail será enviada.',
-            'confirmed'              => 'The user was successfully confirmed.',
-            'created'             => 'O usuário foi criado com sucesso.',
-            'deleted'             => 'O usuário foi excluído com sucesso.',
-            'deleted_permanently' => 'O usuário foi excluídodo permanentemente.',
-            'restored'            => 'O usuário foi restaurado com sucesso.',
-            'session_cleared'      => "The user's session was successfully cleared.",
-            'social_deleted' => 'Social Account Successfully Removed',
-            'unconfirmed' => 'The user was successfully un-confirmed',
-            'updated'             => 'O usuário foi atualizado com sucesso.',
-            'updated_password'    => 'A senha do usuário foi atualizada com sucesso.',
+            'cant_resend_confirmation' => 'A aplicação está configurada para aprovar usuários manualmente.',
+            'confirmation_email' => 'Uma nova confirmação de e-mail será enviada.',
+            'confirmed' => 'O usuário foi confirmado com sucesso.',
+            'created' => 'O usuário foi criado com sucesso.',
+            'deleted' => 'O usuário foi excluído com sucesso.',
+            'deleted_permanently' => 'O usuário foi excluído permanentemente.',
+            'restored' => 'O usuário foi restaurado com sucesso.',
+            'session_cleared' => 'Sessão do usuário foi removida com sucesso.',
+            'social_deleted' => 'Mídia Social removida com sucesso.',
+            'unconfirmed' => 'Confirmação do usuário foi removida com sucesso.',
+            'updated' => 'O usuário foi atualizado com sucesso.',
+            'updated_password' => 'A senha do usuário foi atualizada com sucesso.',
         ],
     ],
 
     'frontend' => [
         'contact' => [
-            'sent' => 'Your information was successfully sent. We will respond back to the e-mail provided as soon as we can.',
+            'sent' => 'Suas informações foram enviadas com sucesso. Nós responderemos ao e-mail fornecido assim que possível.',
         ],
     ],
 ];
